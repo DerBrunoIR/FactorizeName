@@ -21,8 +21,10 @@ $ python3 main.py <text>
 ```bash
 $ python3 main.py "GitHub"
 2 * 3 * 101 * 991 * 130744769
-```
 
-And `(2 * 3 * 101 * 991 * 130744769).to_bytes(6, 'big')` returns indeed 'GitHub'.
+# check if this is true
+$ python3 -c "print((2 * 3 * 101 * 991 * 130744769).to_bytes(6, 'big'))"
+b'GitHub'
+```
 
 

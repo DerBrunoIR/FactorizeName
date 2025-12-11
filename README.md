@@ -12,7 +12,7 @@ The string can be reconstructed from the numeric representation by interpreting 
 # How to use
 
 ```bash
-$ python3 main.py <text>
+$ python3 main.py <short text>
 ```
 
 
